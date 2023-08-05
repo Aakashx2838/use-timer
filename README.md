@@ -45,8 +45,8 @@ let step = 1; // in seconds
 let timeInterval = 1; // in seconds
 let startTime = 0; // in seconds
 let targetTime = 0; // in seconds
-let reverse = false; // in seconds
-let loop = false; // in seconds
+let reverse = false;
+let loop = false;
 
 let onComplete = () => {};
 let onStart = () => {};
