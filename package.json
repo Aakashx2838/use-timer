@@ -1,16 +1,17 @@
 {
   "name": "@aakashx2838/use-timer",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "MIT",
   "type": "module",
-  "main": "dist/index.umd.js",
-  "module": "dist/index.umd.js",
+  "main": "dist/react-use-timer.umd.js",
+  "module": "dist/react-use-timer.umd.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.umd.js"
+      "import": "./dist/react-use-timer.es.js",
+      "require": "./dist/react-use-timer.umd.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
